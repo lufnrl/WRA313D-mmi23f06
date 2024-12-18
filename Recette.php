@@ -4,7 +4,7 @@ abstract class Recette
 {
     protected $nom;
     protected $recetteChaude;
-    private static $nbRecettes = 0;
+    protected static $nbRecettes = 0;
     protected $ingredients = [];
 
     public function __construct($nom, $recetteChaude)

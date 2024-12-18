@@ -2,8 +2,8 @@
 
 class PlatChaud extends Recette
 {
-    private $typeDePlat;
-    private $origine;
+    protected $typeDePlat;
+    protected $origine;
 
     public function __construct($nom, $typeDePlat, $origine)
     {
